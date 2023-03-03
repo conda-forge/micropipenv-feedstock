@@ -1,11 +1,11 @@
-About micropipenv
-=================
+About micropipenv-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/micropipenv-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/thoth-station/micropipenv
 
 Package license: LGPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/micropipenv-feedstock/blob/main/LICENSE.txt)
 
 Summary: A simple wrapper around pip to support requirements.txt, Pipenv and Poetry files for containerized applications
 
