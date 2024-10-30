@@ -1,5 +1,5 @@
 {% set name = "micropipenv" %}
-{% set version = "1.8.0" %}
+{% set version = "1.8.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/micropipenv-{{ version }}.tar.gz
-  sha256: 9ceb92534e91f332d049545369c95b3d28c443d8f355b3a14c0516a99c534b13
+  sha256: 396e9263a16979911dd78825dab03d0320d2617607bf17a5a8541151524f9427
 
 build:
   entry_points:
@@ -21,6 +21,7 @@ requirements:
     - pip
     - python >=3.7
     - setuptools >=56.0.0
+    - wheel
   run:
     - pip >=9
     - python >=3.7
