@@ -1,5 +1,5 @@
 {% set name = "micropipenv" %}
-{% set version = "1.9.0" %}
+{% set version = "1.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/micropipenv-{{ version }}.tar.gz
-  sha256: cbb4f448646147171b2fc1646e0735837911610ad22d27a103cd2a110efa5e15
+  sha256: dab16b08ee319f13fb096e93cc600ecbd0e36ea95e3c43ec8f5186295fe1bfc4
 
 build:
   entry_points:
